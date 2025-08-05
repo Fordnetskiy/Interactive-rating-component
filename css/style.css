@@ -25,7 +25,8 @@ body{
 }
 .rating__box {
     margin: 150px auto;
-    background-color: var(--Grey-900);
+    background: linear-gradient(to top, var(--Grey-950), var(--Grey-900));
+    border: 1px solid var(--Grey-900);
     width: 400px;
     height: auto;
     display: flex;
@@ -131,4 +132,5 @@ body{
     .rating__box-text {
         font-size: 0.9rem;
     }
+
 }
